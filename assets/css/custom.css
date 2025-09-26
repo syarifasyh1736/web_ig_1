@@ -1,0 +1,57 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-dark {
+  background-color: #262626;
+  border: none;
+}
+
+.btn-dark:hover {
+  background-color: #333;
+}
+
+.story {
+  text-align: center;
+  margin-right: 20px;
+}
+
+.story img {
+  border-radius: 50%;
+  border: 2px solid #555;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.post-img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+/* Tab Menu Instagram-like */
+.tab-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-menu .tab-item {
+  flex: 1; /* biar dua tab bagi rata */
+  text-align: center;
+  padding: 8px 0;
+  cursor: pointer;
+  color: #6c757d; /* abu-abu */
+  border-bottom: 1px solid transparent; /* tempat garis aktif */
+}
+
+.tab-menu .tab-item.active {
+  color: #fff; /* putih untuk ikon aktif */
+  border-bottom: 1px solid #fff; /* garis putih di bawah ikon aktif */
+}
+
+.tab-menu .tab-item i {
+  font-size: 1.4rem; /* sesuaikan ukuran */
+}
